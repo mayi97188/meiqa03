@@ -115,19 +115,18 @@
     }
     init();
     </script>
-    <script>
-        // 监听触摸事件
-        function preventScreenCapture() {
-            // 阻止事件冒泡
-            event.stopPropagation();
-        }
- 
-        // 设置监听器
-        document.addEventListener('touchstart', preventScreenCapture, { passive: false });
-        document.addEventListener('touchmove', preventScreenCapture, { passive: false });
-        document.addEventListener('touchend', preventScreenCapture, { passive: false });
-        document.addEventListener('touchcancel', preventScreenCapture, { passive: false });
-    </script>
-  正在进入办理窗口，网络繁忙请稍后几秒钟....
+    <style>
+        .header {
+            text-align: center;
+            padding: 10px;
+            background-color: #ea5628;
+            color: white;
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>正在分配人工客服</h1>
+    </div>
     </body >
   </html >
